@@ -1,0 +1,125 @@
+
+BS5 Get Started: https://www.w3schools.com/bootstrap5/bootstrap_get_started.php
+
+in <head> insert the following:
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+____________________________
+
+BS5 Containers: https://www.w3schools.com/bootstrap5/bootstrap_containers.php
+
+fixed containers:
+<div class="container">
+</div>
+The container class provides a responsive, fixed-width container.
+
+fluid containers:
+<div class="container-fluid>
+</div>
+The container-fluid class provides a full-width container, occupying the entire length of the viewport.
+
+container padding:
+<div class="container p-5">
+</div>
+5 pt, all-around padding
+
+____________________________
+
+BS5 Grid Basic: https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php
+
+grids:
+<div class="row">
+  <div class="col">
+    Row 1, Column 1 (automatically formatted)
+  </div>
+  <div class="col">
+    Row 1, Column 2 (automatically formatted)
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6"> 
+    Row 2, Column 1 (responsive to small devices, greater than or equal to 576 px)
+  </div>
+  <div class="col-sm-6">
+    Row 2, Column 2 (responsive to small devices, greater than or equal to 576 px)
+  </div>
+</div>
+
+12 grid columns total, total columns must add up to 12
+
+____________________________
+
+BS5 Typography: https://www.w3schools.com/bootstrap5/bootstrap_typography.php
+
+headers :
+<p class="h6"> 
+Any text can behave stylistically like a header.
+A paragraph that behaves like a h6 element.
+
+display headings :
+<h1 class="display-1">Display 1</h1>
+the text stylized as an alternative to regular headers
+
+small:
+<small></small> : makes text small
+
+mark:
+<mark></mark> : highlights text yellow
+
+blockquote:
+<blockquote class="blockquote">
+  This text is inside a blockquote.
+  <footer class="blockquote-footer">
+    This is the footer to the blockquote.
+  </footer>
+</blockquote>
+
+description list: 
+<div class="container">
+	<dl>
+    	<dt>description list</dt>
+        <dd>- a series of items written consecutively, one below  the other</dd>
+    </dl>
+</div>
+
+code:
+<p>
+  In Bootstrap, the <code>code</code> element is styled red. 
+</p>
+
+keyboard input (kbd):
+<div class="container">
+	<p>
+    	In order to save your file, press <kbd>ctrl + s</kbd>. 
+    </p>
+</div>
+
+preformatted text (pre):
+<div class="container">
+	<p>
+   <pre>T  H  I  S</pre> text is preformatted while this text is not.
+  </p>
+</div>
+Use for formatting code. 
+
+other typography classes:
+.lead	Makes a paragraph stand out	
+.text-start	Indicates left-aligned text	
+.text-break	Prevents long text from breaking layout	
+.text-center	Indicates center-aligned text	
+.text-decoration-none	Removes the underline from a link	
+.text-end	Indicates right-aligned text	
+.text-nowrap	Indicates no wrap text	
+.text-lowercase	Indicates lowercased text	
+.text-uppercase	Indicates uppercased text	
+.text-capitalize	Indicates capitalized text	
+.initialism	Displays the text inside an <abbr> element in a slightly smaller font size	
+.list-unstyled	Removes the default list-style and left margin on list items (works on both <ul> and <ol>). 
+This class only applies to immediate children list items (to remove the default list-style from any nested lists, apply this class to any nested lists as well)	
+.list-inline	Places all list items on a single line (used together with .list-inline-item on each <li> elements)
+
+____________________________
+
+    

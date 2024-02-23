@@ -1,0 +1,16 @@
+Bootstrap CSS Framework - Full Course for Beginners
+https://www.youtube.com/watch?v=-qfEOE4vtxE&t=2010s
+
+paste script inside body not head
+
+breakpoints -- points at which the design of a page visually changes based on screen size
+
+input responsive design notes into github from meta (notebook)
+
+ex : "col-md-4" : at a md screen size one column will be 8 sections wide one will be 4 at other breakpoints this will not apply boxes will be auto formatted
+
+ex : "col-lg-8 col-md-6": at lg screen size col will be 8, at md col will be 6
+
+if you want a responsive presentation at all breakpoints, define each col size in class
+
+<div class = "row align-items-end"> : rows/cols they contain align to the end of their container
